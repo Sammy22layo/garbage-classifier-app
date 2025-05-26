@@ -19,7 +19,7 @@ page = st.sidebar.radio("📄 Navigate", ["Home", "About"])
 
 # Theme and View Mode
 theme_choice = st.sidebar.selectbox(
-    "🎨 Select Background Theme", ["Green", "Dark"])
+    "🎨 Select Background Theme", ["Dark", "Green"])
 view_mode = st.sidebar.radio(
     "🖼️ Choose layout mode", ("Portrait (scrolling)", "Landscape (side by side)"))
 
